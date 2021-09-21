@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: someServiceClient
+  server:
+    port: 8081
+---
+some:
+  service:
+    url: http://localhost:8082
